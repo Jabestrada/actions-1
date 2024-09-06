@@ -7,10 +7,16 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Welcome message
-              run: echo "My first Github Actions Job v5" 
+              run: echo "My first Github Actions Job v6" 
             
             - name: Where am I
               run: pwd
+
+            - name: Probe parent dir
+              run: ls ..
+
+            - name: Probe grandparent dir
+              run: ls ../..
 
             - name: Read file
               run: cat ../README.md
