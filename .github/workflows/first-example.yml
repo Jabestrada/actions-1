@@ -7,10 +7,10 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Welcome message
-              run: echo "My first Github Actions Job v4" 
+              run: echo "My first Github Actions Job v5" 
             
             - name: Where am I
               run: pwd
 
             - name: Read file
-              run: cat ./README.md
+              run: cat ../README.md
