@@ -13,7 +13,7 @@ jobs:
         - name: Install Cowsay Program
           run: sudo apt-get install cowsay -y
         
-        - name: Execut Cowsay CMD
+        - name: Execute Cowsay CMD
           run: cowsay -f dragon "Dragon is here!!!" >> dragon.txt
         
         - name: Test file exists
